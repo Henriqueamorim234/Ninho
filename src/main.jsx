@@ -1,12 +1,12 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import "./index.css";
-import App from "./App.jsx";
+import Feed from "./pages/Feed.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <div className="bg-footer-background h-screen w-screen">
-      <App />
+      <Feed />
     </div>
   </StrictMode>,
 );

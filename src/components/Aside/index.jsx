@@ -1,8 +1,11 @@
+import { usePerson } from "../../hooks/app";
 import { Me } from "../Me";
 import { SectionButton } from "../SectionButton";
 import { Typograph } from "../Typograph";
 
-export const Aside = ({ user }) => {
+export const Aside = () => {
+  const { user } = usePerson();
+
   return (
     <aside
       className="bg-sidebar-background 

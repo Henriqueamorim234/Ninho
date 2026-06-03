@@ -1,3 +1,3 @@
-export const Main = ({ children }) => {
-  return <main>{children}</main>;
+export const Main = ({ children, ...props }) => {
+  return <main {...props}>{children}</main>;
 };
